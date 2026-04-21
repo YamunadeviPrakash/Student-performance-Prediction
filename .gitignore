@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+
+# dataset (optional remove if uploading)
+large_files/
+data_raw/
+
+# report drafts
+*.tmp
+*.bak
+
+# secrets
+.env
+
+# model files
+*.pkl
+*.joblib
+
+# streamlit cache
+.streamlit/
+
+# OS
+desktop.ini
+
+# temporary
+temp/
+tmp/
+
+# ignore large pdf backups
+report/drafts/
+
+# screenshots backup
+report/screenshots/raw/
